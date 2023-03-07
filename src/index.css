@@ -11,3 +11,61 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.head {
+  padding: 100px 0px 0px 0px;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.fiveTriangles {
+  justify-content: center;
+  position: absolute;
+  opacity: 0.5;
+}
+
+.fiveTriangles2 {
+  opacity: 0.5;
+}
+
+.oss {
+  justify-content: center;
+  position: absolute;
+  display: block; 
+  font-size: 30px;
+  color: #303030;
+  padding: 98px 0px 0px 0px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .fiveTriangles {
+    animation: spin infinite 50s linear;
+  }
+
+  .fiveTriangles2 {
+    animation: reverseSpin infinite 50s linear;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes reverseSpin {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
