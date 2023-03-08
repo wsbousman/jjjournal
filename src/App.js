@@ -10,6 +10,7 @@ import "./index.css";
 // components:
 import Header from './components/header/index.js';
 import Drill from './components/drill/index.js';
+import Submit from './components/submit/index.js';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Router>
       <Header />
       <Drill />
+      <Submit />
       </Router>
     </div>
   );

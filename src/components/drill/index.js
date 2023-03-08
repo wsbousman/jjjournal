@@ -4,10 +4,11 @@ function drill() {
 
   return (
     <section>
+        <div className="label">
+            <p>what did you drill today?</p>
+        </div>
         <div className="wrapper">
             <form>
-                <label for="drillData" className="label">what did you drill today?</label>
-                <br></br>
                 <input type="text" className="drillData" />     
             </form>
         </div>

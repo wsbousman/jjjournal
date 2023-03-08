@@ -38,17 +38,50 @@ code {
   position: absolute;
   display: block; 
   font-size: 25px;
-  color: #303030;
+  color: #5d5d5d;
   padding: 105px 0px 0px 0px;
 }
 
 .label {
-  padding: 0px 0px 0px 0px;
+  font-size: 20px;
+  color: #5d5d5d;
 }
 
 .drillData {
-  width: 600px;
-  height: 30px;
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #5d5d5d;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #5d5d5d;
+  transition: width 0.4s ease-in-out;
+}
+
+.drillData:focus {
+  width: 1000px;
+  height: 80px;
+  background-color: rgb(217, 216, 216);
+}
+
+.submit {
+  font-size: 20px;
+  background-color: #5d5d5d;
+  border: none;
+  border-radius: 5px;
+  color: rgb(217, 216, 216);
+  padding: 13px 30px;
+  text-decoration: none;
+  margin: 20px;
+  cursor: pointer;
+  transition: background-color 0.4s ease-in-out;
+  transition: color 0.4s ease-in-out;
+}
+
+.submit:hover {
+  background-color: rgb(217, 216, 216); 
+  color: #5d5d5d;
 }
 
 @media (prefers-reduced-motion: no-preference) {
