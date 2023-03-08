@@ -42,6 +42,15 @@ code {
   padding: 105px 0px 0px 0px;
 }
 
+.label {
+  padding: 0px 0px 0px 0px;
+}
+
+.drillData {
+  width: 600px;
+  height: 30px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .fiveTriangles {
     animation: spin infinite 50s linear;
