@@ -1,11 +1,11 @@
 import React from 'react'
 
-function drill() {
+function well() {
 
   return (
     <section>
         <div className="label">
-            <p>what did you drill today?</p>
+            <p>what did you do well today?</p>
         </div>
         <div className="wrapper">
             <form>
@@ -16,4 +16,4 @@ function drill() {
   )
 }
 
-export default drill
+export default well

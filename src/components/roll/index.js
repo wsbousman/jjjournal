@@ -9,7 +9,7 @@ function roll() {
         </div>
         <div className="wrapper">
             <form>
-                <input type="text" className="drillData" />     
+                <input type="text" className="inputData" />     
             </form>
         </div>
     </section>

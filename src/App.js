@@ -11,6 +11,8 @@ import "./index.css";
 import Header from './components/header/index.js';
 import Drill from './components/drill/index.js';
 import Roll from './components/roll/index.js';
+import Well from './components/well/index.js';
+import Addroll from './components/addroll/index.js';
 import Submit from './components/submit/index.js';
 
 // test
@@ -22,6 +24,8 @@ function App() {
       <Header />
       <Drill />
       <Roll />
+      <Addroll />
+      <Well />
       <Submit />
       </Router>
     </div>

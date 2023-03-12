@@ -47,7 +47,7 @@ code {
   color: #5d5d5d;
 }
 
-.drillData {
+.inputData {
   width: 300px;
   height: 40px;
   border-radius: 5px;
@@ -59,13 +59,13 @@ code {
   transition: width 0.4s ease-in-out;
 }
 
-.drillData:focus {
+.inputData:focus {
   width: 1000px;
   height: 80px;
   background-color: rgb(217, 216, 216);
 }
 
-.submit {
+.button {
   font-size: 20px;
   background-color: #5d5d5d;
   border: none;
@@ -73,13 +73,13 @@ code {
   color: rgb(217, 216, 216);
   padding: 13px 30px;
   text-decoration: none;
-  margin: 20px;
+  margin: 5px;
   cursor: pointer;
   transition: background-color 0.4s ease-in-out;
   transition: color 0.4s ease-in-out;
 }
 
-.submit:hover {
+.button:hover {
   background-color: rgb(217, 216, 216); 
   color: #5d5d5d;
 }

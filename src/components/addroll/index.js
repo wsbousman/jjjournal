@@ -1,16 +1,16 @@
 import React from 'react'
 
-function submit() {
+function addroll() {
 
   return (
     <section>
         <div className="wrapper">
             <form>
-                <input type="button" className="button" value="save" />
+                <input type="button" className="button" value="add roll" />
             </form>
         </div>
     </section>
   )
 }
 
-export default submit
+export default addroll
