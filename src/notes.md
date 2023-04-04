@@ -1,5 +1,3 @@
-- transparent five triangle overlay, infinite spin using Reacts boilerplate animation
-
 - Log in / Sign up
 
 - What did you drill today?
@@ -15,3 +13,5 @@
 - Save button
 
 - Leandro Lo donation link in footer
+
+- large abstract translucent triangles in bg

@@ -1,16 +1,38 @@
 import React from 'react'
+import RollInput from '../rollinput/index.js';
+export default class addRoll extends React.Component {
 
-function addroll() {
+  constructor(props) {
+    super(props);
 
-  return (
-    <section>
-        <div className="wrapper">
+    this.state = {
+      rolls: <RollInput />
+    }
+  }
+
+  handleButtonClick = (event) => {
+
+    event.preventDefault();
+
+    this.setState({
+      rolls: this.state.rolls + 
+      <RollInput />
+    })
+  }
+
+  render() {
+
+    return (
+      <section>
+          <div className="wrapper">
+            <div>{this.state.rolls}</div>
+          </div>
+          <div className="wrapper">
             <form>
-                <input type="button" className="button" value="add roll" />
+              <button onClick={this.handleButtonClick} className="button">add roll</button>
             </form>
-        </div>
-    </section>
-  )
+          </div>
+      </section>
+    )
+  }
 }
-
-export default addroll

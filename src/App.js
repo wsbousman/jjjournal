@@ -16,8 +16,6 @@ import Better from './components/better/index.js';
 import Addroll from './components/addroll/index.js';
 import Submit from './components/submit/index.js';
 
-// test
-
 function App() {
   return (
     <div className="App">

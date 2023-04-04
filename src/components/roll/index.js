@@ -4,14 +4,9 @@ function roll() {
 
   return (
     <section>
-        <div className="label">
-            <p>how was your roll?</p>
-        </div>
-        <div className="wrapper">
-            <form>
-                <input type="text" className="inputData" />     
-            </form>
-        </div>
+      <div className="label">
+          <p>how was your roll?</p>
+      </div>
     </section>
   )
 }
